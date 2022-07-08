@@ -50,7 +50,7 @@ pipeline {
 			}
 		}*/
 
-		stage('Build Docker Image') {
+		/*stage('Build Docker Image') {
 			steps{
 				//docker build -t myjenkins/jenkinsmicroService:$env.BUILD_TAG
 				script{
@@ -68,7 +68,7 @@ pipeline {
 					}
 				}
 			}
-		}
+		}*/
 	} 
 	
 	post{
