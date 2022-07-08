@@ -23,7 +23,7 @@ public class MyClass_Integration {
         lock.lock(); //reset the lock
 
         myclass.setSecret(6);
-        Assert.assertEquals(true,lock.unlock(myclass.calculatorKey()));
+        Assert.assertEquals(false,lock.unlock(myclass.calculatorKey()));
         Assert.assertEquals(true,lock.isLocked());
 
     }
