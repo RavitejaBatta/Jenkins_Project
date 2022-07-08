@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.jenkins.lab.IT.MyClass_Integration
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.028 s <<< FAILURE! - in com.jenkins.lab.IT.MyClass_Integration
-IntegrationKeyTest(com.jenkins.lab.IT.MyClass_Integration)  Time elapsed: 0.008 s  <<< FAILURE!
-junit.framework.AssertionFailedError: expected:<true> but was:<false>
-	at com.jenkins.lab.IT.MyClass_Integration.IntegrationKeyTest(MyClass_Integration.java:26)
-
